@@ -32,7 +32,7 @@ int main()
         scanf("%d", &emp[i].emp_id); // Accept employee ID
         
         printf("Enter Employee Name: ");
-        scanf(" %[^\n]", emp[i].name); // Accept employee name with spaces
+        scanf(" %[^\n]", &emp[i].name); // Accept employee name with spaces
         
         printf("Enter Employee Salary: ");
         scanf("%f", &emp[i].salary); // Accept employee salary
